@@ -13,17 +13,27 @@ npm install --save react-email-mask
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-email-mask'
+import { maskEmail } from 'react-email-mask'
 import 'react-email-mask/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+
+  console.log(maskEmail('my email address is hello@abc.com, is your email address byebye@defgh.com?'));
+
+  return <div>Hello Email Mask Helper</div>
 }
+
+export default App
+
 ```
+
+## Output
+
+my email address is h\*\*\*o@a\*c.com, is your email address b\*\*\*\*e@d\*\*\*h.com?
+
+
 
 ## License
 
