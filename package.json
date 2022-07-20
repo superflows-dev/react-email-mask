@@ -1,6 +1,6 @@
 {
   "name": "react-email-mask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react module that masks email addresses from any input string",
   "author": "superflows-dev",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0||^17.0.0||^18.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
